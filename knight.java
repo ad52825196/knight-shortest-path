@@ -94,7 +94,7 @@ public class knight {
 
 		queue.add(new Coordinate(0, 0));
 		distance[0][0] = 0;
-		path[0][0] = new BigInteger("1");
+		path[0][0] = BigInteger.ONE;
 
 		while (!queue.isEmpty()) {
 			position = queue.poll();
